@@ -1,0 +1,32 @@
+.content
+{
+    color: #97c0d3;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgba(1,0,0,0.4);
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: auto;
+
+}
+hr
+{
+  border-top-color: #97c0d3!important;
+	/* Also see tweaks.css */
+	border: 0 none #e5e9eb;
+	border-top: 1px solid #e5e9eb;
+	height: 1px;
+	margin: 5px 0;
+	display: block;
+	clear: both;
+  color: #e5e9eb;
+}
+
+hr.dashed
+{
+  border-top-color: #97c0d3!important;
+	border-top: 1px dashed #e5e9eb;
+	margin: 10px 0;
+  color: #e5e9eb;
+}

@@ -1,0 +1,210 @@
+body
+{
+  /* Background pattern from subtlepatterns.com */
+  background-image: url(../images/random_grey_variations.png);
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  /*color: #97c0d3;*/
+  color: #e5e9eb;
+  /*font-size: 1.3em;*/
+}
+header
+{
+  /*background-color: rgba(1,0,0,0.4);
+
+  padding: 30px;
+  border-radius: 1%;
+  position: absolute;
+  left: 100px;
+  right: 100px;*/
+
+}
+nav
+{
+  /*background-color: rgba(1,0,0,0.4);
+  padding: 15px;
+  border-radius: 1%;
+  position: absolute;
+  left: 100px;
+  right: 100px;
+  top: auto;*/
+
+}
+section
+{
+  /*background-color: rgba(1,0,0,0.4);
+  border-radius: 1%;
+  position: absolute;
+  left: 100px;
+  right: 100px;
+  min-height: 1000px;
+  margin: auto;*/
+
+
+}
+footer
+{
+  /*background-color: rgba(1,0,0,0.4);
+  padding: 15px;
+  border-radius: 1%;
+  position: absolute;
+
+  left: 100px;
+  right: 100px;*/
+}
+div
+{
+  margin-bottom: 4px;
+
+  clear: both;
+  border-radius: 10px;
+  color: #bcbcbc;
+  padding: 0 10px;
+  margin: 5px 0;
+  font-size: 1.1em;
+}
+ol
+{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	font-size: 18px;
+	height: 35px;
+	line-height: 200%;
+	display: inline-block;
+
+}
+ol a
+{
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+
+}
+ol a:hover
+{
+  background-color: rgba(83,255,26,0.4);
+  /*color: #fd9013;*/
+}
+ol > li
+{
+	float: left;
+  width: 200px;
+  background-color: rgba(1,5,0,0.4);
+  margin-top: 2px;
+	/*height: 5px;*/
+	border-right: 1px dashed #fd9013;
+}
+ol > li:first-child
+{
+	border-left: 1px dashed #fd9013;
+}
+/*#h1
+{
+    font-size: 5.1em;
+
+}
+#h1:hover
+{
+  color: #fd9013;
+}*/
+.main
+{
+  background-color: rgba(1,0,0,0.4);
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: auto;
+  /*height: 800px;*/
+
+
+}
+
+#navbar
+{
+  background-color: rgba(1,0,0,0.4);
+  margin-left: auto;
+  text-align: center;
+  margin-right: auto;
+  width: 80%;
+  height: 40px;
+  margin-bottom: 5px;
+
+
+}
+#header
+{
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: auto;
+  /*height: 120px;*/
+  /*color: #ccccff;*/
+
+
+}
+.icon-laptop
+{
+
+  float: right;
+
+}
+.icon-laptop:hover
+{
+  color: #fd9013;
+  /*cursor: pointer;*/
+}
+
+#top
+{
+    display: block;
+    font-size: 5.1em;
+}
+#top > a
+{
+  text-decoration: none;
+  font-weight: bold;
+}
+
+span > a:hover
+{
+  color: #fd9013 !important;
+  cursor: pointer;
+}
+#top > a:visited
+{
+  color: #e5e9eb;
+
+}
+#logout
+{
+  text-decoration: none;
+  color: #97c0d3;
+}
+#logout:hover
+{
+  color: #fd9013;
+}
+.scrollup
+{
+  color: #fff;
+	text-decoration: none;
+  font-size: 40px;
+	position: fixed;
+	right: 60px;
+	bottom: 50px;
+	display: none;
+}
+.powitanie
+{
+  margin-left: 42%;
+  color: #33CC00;
+}
+.logoutScreen
+{
+  display: none;
+}
+.firstRegister
+{
+  margin-left: 30%;
+  color: #33CC00;
+}
